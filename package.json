@@ -1,0 +1,22 @@
+{
+  "name": "demo-qa_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smokeTests": "npx playwright test --grep=@smoke",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier . --check",
+    "prettier:fix": "prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.0",
+    "@types/node": "^20.6.2",
+    "eslint": "^8.49.0",
+    "prettier": "3.0.3"
+  }
+}
